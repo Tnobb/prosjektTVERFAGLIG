@@ -4,13 +4,24 @@
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 }
+.bk-hurtigtaster{
+	height: 100vh;
+	width: 100%;
+	background-image:url("/media/.bk-hurtigtaster");
+	background-size: cover;
+	background-position: center;
+	
+}
+
 .hero{
 	height: 100vh;
 	width: 100%;
 	background-color: #191919;
 	background-size: cover;
 	background-position: center;
+	
 }
+
 nav{
 	display: flex;
 	align-items: center;
