@@ -7,7 +7,7 @@
 .bk-hurtigtaster{
 	height: 100vh;
 	width: 100%;
-	background-image:url("/media/.bk-hurtigtaster");
+	background-image: url("/static/media/Hurtigtasterbakurn.jpg");
 	background-size: cover;
 	background-position: center;
 	
