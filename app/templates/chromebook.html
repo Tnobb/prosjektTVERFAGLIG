@@ -11,7 +11,7 @@
 
 <body>
 
-	<div class="hero">
+	<div class="bk-chromebook">
 		<nav>
 			<h2 class="logo"><span>IKT</span>Service</h2>
 			<ul>
@@ -26,85 +26,108 @@
 		</nav>
 
 		<div class="content">
-			<h1>Finn utav problemet med hjelp av <span>IKT</span>Service</h1>
-			<h3><span>Vi løser det uløselige</span></h3>
+			<h1>Hvordan feil søke en Chrome book</h1>
+			<h3><span>Ta ett overblikk</span></h3>
 		</div>
 	</div>
 
 	<!----About section start---->
 	<section class="about">
 		<div class="main">
-			<img src="{{ url_for('static', filename='media/main-img.png') }}">
+			<img src="{{ url_for('static', filename='media/chromebook2.png') }}" width="auto" height="400">
 			<div class="about-text">
-				<h2>Chromebook</h2>
-				<h5>Developer <span>& Designer</span></h5>
-				<p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
-				<button type="button">Let's Talk</button>
+				<h2>Overblikk</h2>
+				<h5><span>For Å Finne Problemet</span></span></h5>
+				<p>Det første du skal gjøre for og feil søke en Chromebook er og se om det er noen feil du kan se med øyene som for eksempel ødelagt skjerm eller tastaturer.<br><br>Mens så er Chrome boken koblet til en lader og med det så sjekker vi om batteriet virker som det skal.<br><br> Og så etter det skrur du på Chromebooken for og logge på pc-en.<br><br>Så når du er på Chromebooken skal du sjekke om lyden virker, tastaturet virker, touch på skjermen virker, og sjekke om den får nettverk.</p>
+			</div>
+		</div>
+	</section>
+	
+	<section class="about">
+			<div class="about-text2">
+				<h2>Hvordan fikse disse problemene </h2>
+			</div>
+	</section>
+
+	<section class="about">
+		<div class="main">
+			<div class="about-text">
+				<h5><span>Hvordan fikse skjermen</span></h5>
+				<p>Hvis skjermen er knust eller touch ikke virker så må du bytte ut skjermen med en ny en.<br><br>For å gjøre dette åpner du først Chrome boken under og så helt oppe der skjermen er så er det noen kabler du må koble ut. Og etter det så må du skru ut noen skruer fra hver side. Så tar du den bare av og tar en ny skjerm og kobler kablene i Chrome boken igjen og skrur skruene på den og da skal den i teori virke<br><br></p>
+				<h5><span>Hvordan fikse tastaturet</span></h5>
+				<p>Hvis du finner ut at tastaturet ikke virker så er det ikke så mye annet å gjøre en og sende ut en ny Chrome book siden det er for vanskelig og fikse tastaturet. </p>
+			</div>
+			<img src="{{ url_for('static', filename='media/chromebooksjerm.jpg') }}" width="auto" height="450">
+		</div>
+	</section>
+
+	<section class="about">
+		<div class="main">
+			<img src="{{ url_for('static', filename='media/chromebooknettverk.jpg') }}" width="auto" height="450">
+			<div class="about-text">
+				<h5><span>Hvordan fikse batteriet</span></h5>
+				<p>Hvis du ser at det er et problem med batteriet så er det en veldig simpel fix for det. Først åpner du opp Chrome boken og det første du burde se et stort batteri som liger der.<br><br>Kan være det er skrud fast, men det kan være du bare kan ta det av.<br><br>Det du må gjøre er og koble kabelen som går fra batteriet til motherboarde. Og ta et nytt batteri og koble det til igjen. Så burde Chrome boken i teori virke.</p>
+				<h5><span>Hvis den ikke får nettverk </span></h5>
+				<p>Da må du åpne chrome boken opp og sjekke om nettverks kortet er skikkelig koblet til.<br><br>Nettverks kortet er en liten brikke som er satt fast med en skrue.<br><br> Og vis det ikke virker bytter du det gamle nettverks kortet med et nytt og ser om det virker.</p>
 			</div>
 		</div>
 	</section>
 
+
 	<!-----service section start----------->
 	<div class="service">
 		<div class="title">
-			<h2>Our Services</h2>
+			<h2>Andre problemer?</h2>
 		</div>
 
 		<div class="box">
 			<div class="card">
 				<i class="fas fa-bars"></i>
-				<h5>Web Development</h5>
+				<h5>Progamvarefeil</h5>
 				<div class="pra">
 					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
 					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
+						<a class="button" href="/programvare">Finn utav det</a>
 					</p>
 				</div>
 			</div>
 
 			<div class="card">
 				<i class="far fa-user"></i>
-				<h5>Web Development</h5>
+				<h5>Maskinvarefeil</h5>
 				<div class="pra">
 					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
 					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
+						<a class="button" href="/maskinvare">Finn utav det</a>
 					</p>
 				</div>
 			</div>
 
 			<div class="card">
 				<i class="far fa-bell"></i>
-				<h5>Web Development</h5>
+				<h5>Hurtigtaster</h5>
 				<div class="pra">
 					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
 					<p style="text-align: center;">
-						<a class="button" href="#">Read More</a>
+						<a class="button" href="/hurtigtaster">Finn utav det</a>
 					</p>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!------Contact Me------>
-	<div class="contact-me">
-		<p>Let Me Get You A Beautiful Website.</p>
-		<a class="button-two" href="#">Hire Me</a>
-	</div>
-
 	<!------footer start--------->
 	<footer>
-		<p>Tahmid Ahmed</p>
-		<p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>
+		<p><span>IKT</span> Service</p>
+		<p>Vi løser det u løselige</p>
 		<div class="social">
-			<a href="#"><i class="fab fa-facebook-f"></i></a>
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			<a href="#"><i class="fab fa-dribbble"></i></a>
+			<a href="https://www.instagram.com/gert.tommy" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/tobiasveire" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.instagram.com/benjamin.h.andersen" target="_blank"><i class="fab fa-dribbble"></i></a>
 		</div>
-		<p class="end">CopyRight By Tahmid Ahmed</p>
 	</footer>
 </body>
 
