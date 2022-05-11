@@ -6,3 +6,4 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 from app import views
 
+
