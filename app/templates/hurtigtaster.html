@@ -22,7 +22,8 @@
                 <li><a href="/hurtigtaster">Hurtigtaster</a></li>
                 <li><a href="/ansatte">Ansatte</a></li>
 			</ul>
-			<a href="#" class="btn">Chat Med Konsulent!</a>
+			<button onclick="openChat()">Chat Med Konsulent!</a>
+			<script src="{{ url_for('static', filename='js/livechat.js') }}"></script>
 		</nav>
 
 		<div class="content">
@@ -67,7 +68,7 @@
 
 	<section class="about">
 		<div class="main">
-			<img src="{{ url_for('static', filename='media/ChromebookCTRL.png') }}" width="auto" height="130">
+			<img src="{{ url_for('static', filename='media/ChormebookCTRL.png') }}" width="auto" height="130">
 			<div class="about-text">
 				<h2>Chromebook</h2>
 				<h5><span>De som er vært å lære seg</span></h5>
@@ -140,7 +141,7 @@
 	<!------footer start--------->
 	<footer>
 		<p><span>IKT</span> Service</p>
-		<p>Vi løser det u løselige</p>
+		<p>Vi løser det uløselige</p>
 		<div class="social">
 			<a href="https://www.instagram.com/gert.tommy" target="_blank"><i class="fab fa-facebook-f"></i></a>
 			<a href="https://www.instagram.com/tobiasveire" target="_blank"><i class="fab fa-instagram"></i></a>
