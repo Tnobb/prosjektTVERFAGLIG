@@ -35,11 +35,23 @@
 	<!----About section start---->
 	<section class="about">
 		<div class="main">
-			<img src="{{ url_for('static', filename='media/main-img.png') }}">
+			<img src="{{ url_for('static', filename='/main-img.png') }}">
 			<div class="about-text">
 				<h2>Progamvarefeil</h2>
 				<h5><span>Hva er programvare feil?</span></h5>
 				<p>En programvarefeil er som ordet sier en feil i programvare. Dette kan være en feil i koden, at programmet ikke er up to date eller at ditt operativsystemet ikke støtter programmet.</p>
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="about">
+		<div class="main">
+			<img src="{{ url_for('static', filename='media/bitdefender.jpeg') }}" width="auto" height="400">
+			<div class="about-text">
+				<h2>Operativsystemfeil</h2>
+				<h5><span>Hvordan fikse</span></h5>
+				<p>Dette hender om du ikke oppdateres jevnlig, andre grunner kan være virus eller at feil indstillinger er valgt i BIOS. Om virus er noe du er redd for anbefaler vi ett antivirus program. Noen bra er Bitdefender Antivirus Plus, om du er på windows Norton 360 With LifeLock eller Webroot SecureAnywhere for Mac om du er på mac.</p>
 				<button type="button">Let's Talk</button>
 			</div>
 		</div>
@@ -57,7 +69,6 @@
 				<h5>Web Development</h5>
 				<div class="pra">
 					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-
 					<p style="text-align: center;">
 						<a class="button" href="#">Read More</a>
 					</p>
