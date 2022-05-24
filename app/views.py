@@ -26,3 +26,7 @@ def programvare():
 @app.route('/hurtigtaster')
 def hurtigtaster():
     return render_template('hurtigtaster.html')
+
+@app.route('/teambuilding')
+def teambuilding():
+    return render_template('teambuilding.html')

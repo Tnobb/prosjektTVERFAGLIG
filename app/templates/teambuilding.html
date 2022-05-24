@@ -11,9 +11,9 @@
 
 <body>
 
-	<div class="hero">
+	<div class="bk-teambuilding">
 		<nav>
-			<h2 class="logo"><span>IKT</span>Service</a></h2>
+			<h2 class="logo"><span>IKT</span>Service</h2>
 			<ul>
 				<li><a href="/">Home</a></li>
 				<li><a href="/chromebook">Chromebook Feilsøking</a></li>
@@ -25,68 +25,57 @@
 			<button onclick="openChat()">Chat Med Konsulent!</a>
 			<script src="{{ url_for('static', filename='js/livechat.js') }}"></script>
 		</nav>
-
-		<div class="content">
-			<h1>Finn utav problemet med hjelp av <span>IKT</span>Service</h1>
-			<h3><span>Vi løser det uløselige</span></h3>
-		</div>
 	</div>
 
 	<!----About section start---->
 	<section class="about">
 		<div class="main">
-			<img src="{{ url_for('static', filename='media/Tommy.png') }}">
 			<div class="about-text">
-				<h2>Hva vi tilbyr</h2>
-				<h5><span>IKT</span> Service</h5>
-				<p>Vi i IKTservice er her for å tilby deg top level IT hjelp, med kortest mulig ventetid. IKTservice ble til fordi vi ønsket en IKT løsning som var tilgjengelig og jobbet til langt på natt. Dette er vårt store mål, og vi kommer til å strekke oss langt for å nå toppen.</p>
+				<h2>Våre eventyr</h2>
+				<h5><span>Ute på fug</span></h5>
+				<p>På IKT Service er vi ikke bare kolegaer. Vi er familie!<br>
+					Sammen har vi dratt på bowling,   </p>
 			</div>
+			<img src="{{ url_for('static', filename='media/ansatteiktservice.png') }}">
 		</div>
 	</section>
 
 	<section class="about">
 		<div class="main">
 			<div class="about-text">
-				<h2>Noe uklart?</h2>
-				<h5><span>IKT</span> Service</h5>
-				<p>Om noe er uklart er det bare å sende enn melling. Vi tar i mot alt av tilbakemellinger slik at vi sammen kan gjøre dette det beste nettstede for IKT hjelp.</p>
-				<button onclick="openChat()">Chat her</a>
+				<h2>Vårt miljø</h2>
+				<h5><span>På jobb og på fritiden</span></h5>
+				<p>Vi er en gruppe genier som jobber for at alle kan få hjelp med sitt IKT problem. Uannsett om du er på skolen, hjemme, på hytta eller i utlandet så skal du få hjelp med ditt problem.</p>
+				<a class="button" href="/Teambuilding">Se vår teambuilding</a>
 			</div>
-			<img src="{{ url_for('static', filename='media/Benna.png') }}">
-			<img src="{{ url_for('static', filename='media/Tnobb.png') }}">S
+			<img src="{{ url_for('static', filename='media/Tommyjobber.png') }}">
+			<img src="{{ url_for('static', filename='media/Tnobbjobber.png') }}">
 		</div>
 	</section>
-
 
 	<!-----service section start----------->
 	<div class="service">
 		<div class="title">
 			<h2>Ta kontakt</h2>
 		</div>
-
-		<div class="box">
-			<div class="card">
-				<i class="fas fa-bars"></i>
-				<h5>Ansatte</h5>
-				<div class="pra">
-					<p>Vi er en gruppe genier som jobber for at alle kan få hjelp med sitt IKT problem. Uannsett om du er på skolen, hjemme, på hytta eller i utlandet så skal du få hjelp med ditt problem.</p>
-
-					<p style="text-align: center;">
-						<a class="button" href="/ansatte">Les mer</a>
-					</p>
+	
+			<div class="box">
+				<div class="card">
+					<i class="far fa-bell"></i>
+					<h5>Chat Med Konsulent</h5>
+					<div class="pra">
+						<p>Send en chat så svarer vi så fort vi kan! <br><br><br><br> Vi kan hjelpe med alt!</p>
+	
+					<button onclick="openChat()">Chat her</a>
 				</div>
-			</div>
-
-			<div class="card">
-				<i class="far fa-bell"></i>
-				<h5>Chat Med Konsulent</h5>
-				<div class="pra">
-					<p>Send en chat så svarer vi så fort vi kan! <br><br><br><br> Vi kan hjelpe med alt!</p>
-
-				<button onclick="openChat()">Chat her</a>
 			</div>
 		</div>
 	</div>
+
+
+
+
+
 
 	<!------footer start--------->
 	<footer>
